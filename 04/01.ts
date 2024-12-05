@@ -1,7 +1,6 @@
 const rawInput = await Deno.readTextFile(`${import.meta.dirname}/input`);
 const input = rawInput.split("\n");
 
-
 let xMasCount = 0;
 
 const isWordXmas = (word: string | string[]) => {
