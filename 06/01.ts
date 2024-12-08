@@ -79,8 +79,6 @@ do {
 			break;
 	}
 
-	// console.log(position, direction);
-
 	if (
 		position.x < 0 ||
 		position.y < 0 ||
